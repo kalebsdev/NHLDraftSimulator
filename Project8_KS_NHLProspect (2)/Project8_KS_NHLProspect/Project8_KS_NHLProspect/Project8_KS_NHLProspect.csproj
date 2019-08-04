@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6A62E0C-7AA1-49FA-BC33-657D9C5FDF3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project8_KS_NHLProspect</RootNamespace>
+    <AssemblyName>Project8_KS_NHLProspect</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NHLProspect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NHLProspect.Designer.cs">
+      <DependentUpon>NHLProspect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NHLProspect.resx">
+      <DependentUpon>NHLProspect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aMcDavid.Connor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bEichel_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cHanifin_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doliver_kylington_farjestad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\epavel_zacha_sarnia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fMitch Marner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gStrome.Dylan_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hJeremyRoy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isvechnikov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jmathewbarzal-e1378246583631.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ktravis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lWhite_Colin_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mNick Merkley.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nBittner_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olawson_crouse_kingstron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pMikkoRantanen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qDanielSprong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rHughes_Cameron_20135506.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sNovak_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tConnor_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uNikitaKorostelev.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vJansenHarkins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wIvanProvorov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xMacKenzieBlackwood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yMatejTomek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\znicolas-meloche.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zzboril_jakub_karta01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zzJesperLindgren.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zzWerenski_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zzzGreenway_medium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draftPicks.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
